@@ -7,7 +7,7 @@ let score1InNumber = Number(score1) // null gets converted into 0
 let score2InNumber = Number(score2) // undefined will give output as Nan
 let score3InNumber = Number(score3) // True is 1
 
-console.table([score1InNumber,score2InNumber, score3InNumber])
+// console.table([score1InNumber,score2InNumber, score3InNumber])
 
 // console.log(typeof score)
 // console.log(typeof(score))
@@ -62,14 +62,27 @@ let str3 = str1+str2
 // console.log(str3)
 
 /*
-console.log(typeof"1" + 2);
-console.log(1 + "2");
-console.log("1" + 2 + 2);
-console.log(1 + 2 + "2");
+console.log(typeof("1" + 2));
+console.log(typeof(1 + "2"));
+console.log(typeof("1" + 2 + 2));
+console.log(typeof(1 + 2 + "2"));
 */
 
 // console.log( (3 + 4) * 5 % 3);
 
 
-console.log(+true);
-console.log(+"");
+// console.log(+true);
+// console.log(+"");
+
+let num1 , num2, num3
+num1= num2 = num3= 5
+
+// console.log(num2)
+
+let gameCounter = 100;
+// gameCounter++
+// ++gameCounter
+// console.log(gameCounter) // 102
+
+console.log(gameCounter++) //100
+console.log(++gameCounter) // 102
